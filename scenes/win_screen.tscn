@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqeaj61boxvvk"]
+
+[ext_resource type="Script" path="res://scripts/win_screen.gd" id="1_xdbw7"]
+[ext_resource type="Texture2D" uid="uid://dtqx3okqf66h5" path="res://images/win screen.png" id="2_p0kqq"]
+
+[node name="WinScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xdbw7")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Node2D"]
+offset_right = 1154.0
+offset_bottom = 645.0
+
+[node name="WinScreen" type="Sprite2D" parent="."]
+position = Vector2(580, 324.5)
+scale = Vector2(1.60833, 1.60247)
+texture = ExtResource("2_p0kqq")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Menu" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "      
+Menu
+                                       "
+
+[node name="Exit" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "
+Exit
+
+"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Menu" to="." method="_on_menu_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Exit" to="." method="_on_exit_pressed"]

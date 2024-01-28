@@ -407,10 +407,10 @@ position = Vector2(7288, -1191)
 position = Vector2(7388, -1191)
 
 [node name="StaticBody2D248" parent="." instance=ExtResource("4_ma65h")]
-position = Vector2(-47.9999, -1197)
+position = Vector2(-31.9999, -1045)
 
 [node name="StaticBody2D249" parent="." instance=ExtResource("6_kor7p")]
-position = Vector2(52.0001, -1197)
+position = Vector2(68.0001, -1045)
 
 [node name="StaticBody2D250" parent="." instance=ExtResource("4_ma65h")]
 position = Vector2(341, -1060)
@@ -437,22 +437,22 @@ position = Vector2(2639, -1393)
 position = Vector2(2739, -1393)
 
 [node name="StaticBody2D46" parent="." instance=ExtResource("4_ma65h")]
-position = Vector2(-1191, -764)
+position = Vector2(-1175, -612)
 
 [node name="StaticBody2D236" parent="." instance=ExtResource("6_kor7p")]
-position = Vector2(-1091, -764)
+position = Vector2(-1075, -612)
 
 [node name="StaticBody2D48" parent="." instance=ExtResource("4_ma65h")]
-position = Vector2(-783, -884)
+position = Vector2(-767, -732)
 
 [node name="StaticBody2D241" parent="." instance=ExtResource("6_kor7p")]
-position = Vector2(-683, -884)
+position = Vector2(-667, -732)
 
 [node name="StaticBody2D246" parent="." instance=ExtResource("4_ma65h")]
-position = Vector2(-381, -1012)
+position = Vector2(-365, -860)
 
 [node name="StaticBody2D247" parent="." instance=ExtResource("6_kor7p")]
-position = Vector2(-281, -1012)
+position = Vector2(-265, -860)
 
 [node name="StaticBody2D240" parent="." instance=ExtResource("4_ma65h")]
 position = Vector2(2418, -526)
@@ -840,8 +840,8 @@ texture = ExtResource("7_5q18e")
 position = Vector2(-1383, -73.9999)
 
 [node name="ElevatorChain5wX20h5" type="Sprite2D" parent="."]
-position = Vector2(-1269, -427.5)
-scale = Vector2(5, 35.35)
+position = Vector2(-1269, -305.5)
+scale = Vector2(5, 23.15)
 texture = ExtResource("7_5q18e")
 
 [node name="ElevatorChain5wX20h2" type="Sprite2D" parent="."]
