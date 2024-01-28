@@ -1,19 +1,24 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706414727
-gitattributes.txt::TextFile::-1::1706396927::0::1::::<><>::
-gitignore.txt::TextFile::-1::1706396929::0::1::::<><>::
-player.tscn::PackedScene::5689753655094026725::1706396932::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
-::res://images/::1706414529
-eye-pixilart.png::CompressedTexture2D::3830689927058555672::1706396776::1706396995::1::::<><>::
-icon.svg::CompressedTexture2D::5555028645735401881::1706396781::1706414529::1::::<><>::
-mainCharIdle-Sheet.png::CompressedTexture2D::6355655354007729920::1706396786::1706396995::1::::<><>::
-mainCharIdle.png::CompressedTexture2D::4089958534343714326::1706396791::1706396995::1::::<><>::
-mainCharWalk-Sheet-Left.png::CompressedTexture2D::548711745889657641::1706396797::1706396995::1::::<><>::
-mainCharWalk-Sheet-Right.png::CompressedTexture2D::3767700712796134179::1706396802::1706396995::1::::<><>::
-tundra placeholder.png::CompressedTexture2D::3192235670914270531::1706396807::1706396995::1::::<><>::
-::res://scenes/::1706414553
-mainCharIdle.png::CompressedTexture2D::9157006519915283704::1706396869::1706396995::1::::<><>::
-player.tscn::PackedScene::8951517980155192429::1706413798::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
-world.tscn::PackedScene::1807029394670312591::1706414553::0::1::::<><>::uid://d0sggtpp08rdl::::res://scenes/player.tscn
-::res://scripts/::1706413798
-player.gd::GDScript::-1::1706413798::0::1::::<>CharacterBody2D<>::
+::res://::1706421395
+gitattributes.txt::TextFile::-1::1706399403::0::1::::<><>::
+gitignore.txt::TextFile::-1::1706399403::0::1::::<><>::
+player.tscn::PackedScene::5689753655094026725::1706399403::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
+::res://images/::1706419299
+Concrete Borderless.png::CompressedTexture2D::7161069840762107923::1706419299::1706419299::1::::<><>::
+eye-pixilart.png::CompressedTexture2D::3830689927058555672::1706399403::1706399403::1::::<><>::
+icon.svg::CompressedTexture2D::5555028645735401881::1706399403::1706417773::1::::<><>::
+mainCharIdle-Sheet.png::CompressedTexture2D::6355655354007729920::1706399403::1706399403::1::::<><>::
+mainCharIdle.png::CompressedTexture2D::4089958534343714326::1706399403::1706399403::1::::<><>::
+mainCharWalk-Sheet-Left.png::CompressedTexture2D::548711745889657641::1706399403::1706399403::1::::<><>::
+mainCharWalk-Sheet-Right.png::CompressedTexture2D::3767700712796134179::1706399403::1706399403::1::::<><>::
+Metal Grating 20Wx10H.png::CompressedTexture2D::3152910789266986757::1706418540::1706418540::1::::<><>::
+tundra placeholder.png::CompressedTexture2D::3192235670914270531::1706399403::1706399403::1::::<><>::
+::res://Platforms/::1706421220
+BaseMidPlatform.tscn::PackedScene::359090791749291951::1706421220::0::1::::<><>::uid://daa41k1s1bkpf::::res://images/Concrete Borderless.png
+BaseWalkway.tscn::PackedScene::1971360721632101034::1706421220::0::1::::<><>::uid://bk6j8k7amrb3b::::res://images/Metal Grating 20Wx10H.png
+::res://scenes/::1706421220
+mainCharIdle.png::CompressedTexture2D::9157006519915283704::1706399403::1706399403::1::::<><>::
+player.tscn::PackedScene::8951517980155192429::1706413674::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
+world.tscn::PackedScene::1807029394670312591::1706421220::0::1::::<><>::uid://d0sggtpp08rdl::::res://scenes/player.tscn<>uid://fd7f43y2rtfb::::res://Platforms/BaseMidPlatform.tscn<>uid://3c7a1wt02d0e::::res://Platforms/BaseWalkway.tscn
+::res://scripts/::1706413674
+player.gd::GDScript::-1::1706413674::0::1::::<>CharacterBody2D<>::
