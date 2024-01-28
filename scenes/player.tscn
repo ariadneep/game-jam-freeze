@@ -160,17 +160,17 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5bgkt"]
-size = Vector2(68, 155.75)
+size = Vector2(82, 187.875)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_cwsmx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(3, -78)
-scale = Vector2(4, 4)
+position = Vector2(3, -95)
+scale = Vector2(5, 5)
 sprite_frames = SubResource("SpriteFrames_xvc3f")
 animation = &"stand_idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(2, -81.875)
+position = Vector2(5, -95.0625)
 shape = SubResource("RectangleShape2D_5bgkt")
