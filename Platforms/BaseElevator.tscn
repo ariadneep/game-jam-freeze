@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://derynjxtwtjhp"]
+
+[ext_resource type="Texture2D" uid="uid://n57hvftjeqi4" path="res://images/Elevator Platform.png" id="1_qgt71"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u383q"]
+size = Vector2(40, 5)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+scale = Vector2(5, 5)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_qgt71")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2.5)
+shape = SubResource("RectangleShape2D_u383q")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://00lrlx0u6i7x"]
+[gd_scene load_steps=12 format=3 uid="uid://00lrlx0u6i7x"]
 
 [ext_resource type="PackedScene" uid="uid://d0sggtpp08rdl" path="res://scenes/player.tscn" id="1_t185i"]
 [ext_resource type="PackedScene" uid="uid://fd7f43y2rtfb" path="res://Platforms/BaseMidPlatform.tscn" id="2_lq6up"]
@@ -7,6 +7,8 @@
 [ext_resource type="PackedScene" uid="uid://cul0m5f5gm5el" path="res://Platforms/RightWalkway.tscn" id="5_ngxjk"]
 [ext_resource type="PackedScene" uid="uid://sogfy0htcsd" path="res://Platforms/LeftWalkway.tscn" id="6_hhenw"]
 [ext_resource type="PackedScene" uid="uid://enjxw4xkr2oh" path="res://Platforms/WallLeft.tscn" id="7_q3bld"]
+[ext_resource type="Texture2D" uid="uid://d3pyta2w5fdkq" path="res://scenes/mainCharIdle.png" id="8_0p63o"]
+[ext_resource type="Texture2D" uid="uid://butu5ymlfq8gy" path="res://images/eye-pixilart.png" id="9_l1eb5"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_k3qqm"]
 
@@ -228,5 +230,50 @@ position = Vector2(2914, 190)
 [node name="StaticBody2D67" parent="." instance=ExtResource("4_cc7sf")]
 position = Vector2(2978, 190)
 
+[node name="StaticBody2D69" parent="." instance=ExtResource("4_cc7sf")]
+position = Vector2(3043, 190)
+
+[node name="StaticBody2D70" parent="." instance=ExtResource("4_cc7sf")]
+position = Vector2(3107, 190)
+
+[node name="StaticBody2D71" parent="." instance=ExtResource("4_cc7sf")]
+position = Vector2(3171, 190)
+
+[node name="StaticBody2D72" parent="." instance=ExtResource("4_cc7sf")]
+position = Vector2(3235, 190)
+
+[node name="StaticBody2D73" parent="." instance=ExtResource("4_cc7sf")]
+position = Vector2(3299, 190)
+
+[node name="StaticBody2D74" parent="." instance=ExtResource("4_cc7sf")]
+position = Vector2(3363, 190)
+
+[node name="StaticBody2D75" parent="." instance=ExtResource("4_cc7sf")]
+position = Vector2(3427, 190)
+
+[node name="StaticBody2D76" parent="." instance=ExtResource("4_cc7sf")]
+position = Vector2(3492, 190)
+
+[node name="StaticBody2D77" parent="." instance=ExtResource("4_cc7sf")]
+position = Vector2(3556, 190)
+
+[node name="StaticBody2D78" parent="." instance=ExtResource("4_cc7sf")]
+position = Vector2(3620, 190)
+
+[node name="StaticBody2D79" parent="." instance=ExtResource("4_cc7sf")]
+position = Vector2(3684, 190)
+
 [node name="StaticBody2D38" parent="." instance=ExtResource("5_ngxjk")]
 position = Vector2(1879, 236)
+
+[node name="StaticBody2D68" parent="." instance=ExtResource("2_lq6up")]
+position = Vector2(2785, 106)
+
+[node name="MainCharIdle" type="Sprite2D" parent="."]
+position = Vector2(3529, 109)
+texture = ExtResource("8_0p63o")
+
+[node name="Eye-pixilart" type="Sprite2D" parent="."]
+position = Vector2(3182, 66)
+scale = Vector2(1.84, 1.48)
+texture = ExtResource("9_l1eb5")
