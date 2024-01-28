@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dlh4j675gohdk"]
+
+[ext_resource type="Texture2D" uid="uid://tficgjvk70ui" path="res://images/Concrete R-Border.png" id="1_vdk3c"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u6f0a"]
+size = Vector2(16, 16)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+scale = Vector2(4, 4)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_vdk3c")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_u6f0a")

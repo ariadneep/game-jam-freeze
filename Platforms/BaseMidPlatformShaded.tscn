@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bu01g2hmjbjno"]
+
+[ext_resource type="Texture2D" uid="uid://kug7kpee1twx" path="res://images/Concrete Up-Border.png" id="1_5gx4j"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1jjxl"]
+size = Vector2(16, 16)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+scale = Vector2(4, 4)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_5gx4j")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_1jjxl")

@@ -1,3 +1,2 @@
 res://scenes/world.tscn
-res://Platforms/BaseMidPlatform.tscn
-res://Platforms/BaseWalkway.tscn
+res://Platforms/RightWalkway.tscn

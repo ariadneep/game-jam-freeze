@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://enjxw4xkr2oh"]
+
+[ext_resource type="Texture2D" uid="uid://cqq48uupjccff" path="res://images/Concrete L-Border.png" id="1_0yjur"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d130i"]
+size = Vector2(16, 16)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+scale = Vector2(4, 4)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_0yjur")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_d130i")
