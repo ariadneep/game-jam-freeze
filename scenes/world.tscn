@@ -266,61 +266,61 @@ position = Vector2(2401, 190)
 position = Vector2(2465, 190)
 
 [node name="StaticBody2D60" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(2530, 190)
+position = Vector2(2529, 190)
 
 [node name="StaticBody2D61" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(2594, 190)
+position = Vector2(2593, 190)
 
 [node name="StaticBody2D62" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(2658, 190)
+position = Vector2(2657, 190)
 
 [node name="StaticBody2D63" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(2722, 190)
+position = Vector2(2721, 190)
 
 [node name="StaticBody2D64" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(2786, 190)
+position = Vector2(2785, 190)
 
 [node name="StaticBody2D65" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(2850, 190)
+position = Vector2(2849, 190)
 
 [node name="StaticBody2D66" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(2914, 190)
+position = Vector2(2913, 190)
 
 [node name="StaticBody2D67" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(2978, 190)
+position = Vector2(2977, 190)
 
 [node name="StaticBody2D69" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(3043, 190)
+position = Vector2(3041, 190)
 
 [node name="StaticBody2D70" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(3107, 190)
+position = Vector2(3105, 190)
 
 [node name="StaticBody2D71" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(3171, 190)
+position = Vector2(3169, 190)
 
 [node name="StaticBody2D72" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(3235, 190)
+position = Vector2(3233, 190)
 
 [node name="StaticBody2D73" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(3299, 190)
+position = Vector2(3297, 190)
 
 [node name="StaticBody2D74" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(3363, 190)
+position = Vector2(3361, 190)
 
 [node name="StaticBody2D75" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(3427, 190)
+position = Vector2(3425, 190)
 
 [node name="StaticBody2D76" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(3492, 190)
+position = Vector2(3489, 190)
 
 [node name="StaticBody2D77" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(3556, 190)
+position = Vector2(3553, 190)
 
 [node name="StaticBody2D78" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(3620, 190)
+position = Vector2(3617, 190)
 
 [node name="StaticBody2D79" parent="." instance=ExtResource("4_cc7sf")]
-position = Vector2(3684, 190)
+position = Vector2(3681, 190)
 
 [node name="StaticBody2D38" parent="." instance=ExtResource("5_ngxjk")]
 position = Vector2(1879, 236)
