@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706397262
+::res://::1706414201
 gitattributes.txt::TextFile::-1::1706396927::0::1::::<><>::
 gitignore.txt::TextFile::-1::1706396929::0::1::::<><>::
 player.tscn::PackedScene::5689753655094026725::1706396932::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
@@ -11,9 +11,9 @@ mainCharIdle.png::CompressedTexture2D::4089958534343714326::1706396791::17063969
 mainCharWalk-Sheet-Left.png::CompressedTexture2D::548711745889657641::1706396797::1706396995::1::::<><>::
 mainCharWalk-Sheet-Right.png::CompressedTexture2D::3767700712796134179::1706396802::1706396995::1::::<><>::
 tundra placeholder.png::CompressedTexture2D::3192235670914270531::1706396807::1706396995::1::::<><>::
-::res://scenes/::1706396999
+::res://scenes/::1706413798
 mainCharIdle.png::CompressedTexture2D::9157006519915283704::1706396869::1706396995::1::::<><>::
-player.tscn::PackedScene::8951517980155192429::1706396875::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
-world.tscn::PackedScene::1807029394670312591::1706396999::0::1::::<><>::uid://d0sggtpp08rdl::::res://scenes/player.tscn
-::res://scripts/::1706396905
-player.gd::GDScript::-1::1706396902::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::8951517980155192429::1706413798::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
+world.tscn::PackedScene::1807029394670312591::1706405820::0::1::::<><>::uid://d0sggtpp08rdl::::res://scenes/player.tscn
+::res://scripts/::1706413798
+player.gd::GDScript::-1::1706413798::0::1::::<>CharacterBody2D<>::
