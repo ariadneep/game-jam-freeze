@@ -1,1 +1,6 @@
 res://scenes/world.tscn
+res://Platforms/RightWalkway.tscn
+res://scenes/2_nd_level.tscn
+res://Platforms/BaseElevator.tscn
+res://scripts/BaseElevator.gd
+res://scenes/player.tscn

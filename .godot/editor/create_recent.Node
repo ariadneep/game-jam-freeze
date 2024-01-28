@@ -1,3 +1,12 @@
-Sprite2D
+TileMap
+DirectionalLight2D
+PointLight2D
+Camera2D
+AnimationPlayer
 CollisionShape2D
+Sprite2D
+RemoteTransform2D
+AnimatableBody2D
+PathFollow2D
+Path2D
 StaticBody2D

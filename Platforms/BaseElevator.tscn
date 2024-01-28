@@ -1,16 +1,83 @@
-[gd_scene load_steps=3 format=3 uid="uid://derynjxtwtjhp"]
+[gd_scene load_steps=8 format=3 uid="uid://derynjxtwtjhp"]
 
+[ext_resource type="Script" path="res://scripts/BaseElevator.gd" id="1_7kcuk"]
 [ext_resource type="Texture2D" uid="uid://n57hvftjeqi4" path="res://images/Elevator Platform.png" id="1_qgt71"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_u383q"]
-size = Vector2(40, 5)
+[sub_resource type="Curve2D" id="Curve2D_7eq45"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 20, -484, 0, 0, 0, 0, 22, -5, 0, 0, 0, 0, 22, -7, 0, 0, 0, 0, 19, -483)
+}
+point_count = 4
 
-[node name="StaticBody2D" type="StaticBody2D"]
-scale = Vector2(5, 5)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3p4tg"]
+size = Vector2(12.0027, 120.502)
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[sub_resource type="Animation" id="Animation_6svmf"]
+resource_name = "elevator"
+length = 3.0
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PathFollow2D:progress_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_lnxm0"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PathFollow2D:progress_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_chotr"]
+_data = {
+"RESET": SubResource("Animation_lnxm0"),
+"elevator": SubResource("Animation_6svmf")
+}
+
+[node name="Path2D" type="Path2D"]
+position = Vector2(-1, -391)
+curve = SubResource("Curve2D_7eq45")
+script = ExtResource("1_7kcuk")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="."]
+position = Vector2(0.355083, -176.57)
+rotation = 1.57285
+progress = 313.43
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="PathFollow2D"]
+remote_path = NodePath("../../AnimatableBody2D")
+
+[node name="AnimatableBody2D" type="AnimatableBody2D" parent="."]
+position = Vector2(0.355083, -176.57)
+rotation = 1.57285
+scale = Vector2(1, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="AnimatableBody2D"]
+rotation = 1.5708
+scale = Vector2(3, 3)
 texture = ExtResource("1_qgt71")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -2.5)
-shape = SubResource("RectangleShape2D_u383q")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatableBody2D"]
+position = Vector2(8.9986, -0.267711)
+shape = SubResource("RectangleShape2D_3p4tg")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_chotr")
+}
