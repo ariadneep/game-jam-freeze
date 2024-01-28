@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706412121
+::res://::1706411053
 gitattributes.txt::TextFile::-1::1706399403::0::1::::<><>::
 gitignore.txt::TextFile::-1::1706399403::0::1::::<><>::
 player.tscn::PackedScene::5689753655094026725::1706399403::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
-::res://images/::1706411054
+::res://images/::1706410847
 eye-pixilart.png::CompressedTexture2D::3830689927058555672::1706399403::1706399403::1::::<><>::
 icon.svg::CompressedTexture2D::5555028645735401881::1706399403::1706411054::1::::<><>::
 mainCharIdle-Sheet.png::CompressedTexture2D::6355655354007729920::1706399403::1706399403::1::::<><>::
@@ -11,9 +11,9 @@ mainCharIdle.png::CompressedTexture2D::4089958534343714326::1706399403::17063994
 mainCharWalk-Sheet-Left.png::CompressedTexture2D::548711745889657641::1706399403::1706399403::1::::<><>::
 mainCharWalk-Sheet-Right.png::CompressedTexture2D::3767700712796134179::1706399403::1706399403::1::::<><>::
 tundra placeholder.png::CompressedTexture2D::3192235670914270531::1706399403::1706399403::1::::<><>::
-::res://scenes/::1706411136
+::res://scenes/::1706410847
 mainCharIdle.png::CompressedTexture2D::9157006519915283704::1706399403::1706399403::1::::<><>::
 player.tscn::PackedScene::8951517980155192429::1706399403::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
-world.tscn::PackedScene::1807029394670312591::1706411136::0::1::::<><>::uid://d0sggtpp08rdl::::res://scenes/player.tscn
+world.tscn::PackedScene::1807029394670312591::1706410847::0::1::::<><>::uid://d0sggtpp08rdl::::res://scenes/player.tscn
 ::res://scripts/::1706399403
 player.gd::GDScript::-1::1706399403::0::1::::<>CharacterBody2D<>::
