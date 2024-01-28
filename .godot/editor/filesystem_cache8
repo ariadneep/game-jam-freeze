@@ -1,19 +1,38 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706414727
-gitattributes.txt::TextFile::-1::1706396927::0::1::::<><>::
-gitignore.txt::TextFile::-1::1706396929::0::1::::<><>::
-player.tscn::PackedScene::5689753655094026725::1706396932::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
-::res://images/::1706414529
-eye-pixilart.png::CompressedTexture2D::3830689927058555672::1706396776::1706396995::1::::<><>::
-icon.svg::CompressedTexture2D::5555028645735401881::1706396781::1706414529::1::::<><>::
-mainCharIdle-Sheet.png::CompressedTexture2D::6355655354007729920::1706396786::1706396995::1::::<><>::
-mainCharIdle.png::CompressedTexture2D::4089958534343714326::1706396791::1706396995::1::::<><>::
-mainCharWalk-Sheet-Left.png::CompressedTexture2D::548711745889657641::1706396797::1706396995::1::::<><>::
-mainCharWalk-Sheet-Right.png::CompressedTexture2D::3767700712796134179::1706396802::1706396995::1::::<><>::
-tundra placeholder.png::CompressedTexture2D::3192235670914270531::1706396807::1706396995::1::::<><>::
-::res://scenes/::1706414553
-mainCharIdle.png::CompressedTexture2D::9157006519915283704::1706396869::1706396995::1::::<><>::
-player.tscn::PackedScene::8951517980155192429::1706413798::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
-world.tscn::PackedScene::1807029394670312591::1706414553::0::1::::<><>::uid://d0sggtpp08rdl::::res://scenes/player.tscn
-::res://scripts/::1706413798
-player.gd::GDScript::-1::1706413798::0::1::::<>CharacterBody2D<>::
+::res://::1706438425
+gitattributes.txt::TextFile::-1::1706399403::0::1::::<><>::
+gitignore.txt::TextFile::-1::1706399403::0::1::::<><>::
+player.tscn::PackedScene::5689753655094026725::1706399403::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
+::res://images/::1706429770
+Concrete Borderless.png::CompressedTexture2D::7161069840762107923::1706419299::1706419299::1::::<><>::
+Concrete L-Border.png::CompressedTexture2D::5930713715705496375::1706426534::1706426534::1::::<><>::
+Concrete R-Border.png::CompressedTexture2D::1344399555434990868::1706426537::1706426537::1::::<><>::
+Concrete Up-Border.png::CompressedTexture2D::743597987416774175::1706424219::1706424220::1::::<><>::
+Elevator Chain 5W x 20H.png::CompressedTexture2D::6617867674324337451::1706429770::1706429770::1::::<><>::
+Elevator Platform.png::CompressedTexture2D::976342855831926589::1706429747::1706429750::1::::<><>::
+eye-pixilart.png::CompressedTexture2D::3830689927058555672::1706399403::1706399403::1::::<><>::
+icon.svg::CompressedTexture2D::5555028645735401881::1706399403::1706417773::1::::<><>::
+mainCharIdle-Sheet.png::CompressedTexture2D::6355655354007729920::1706399403::1706399403::1::::<><>::
+mainCharIdle.png::CompressedTexture2D::4089958534343714326::1706399403::1706399403::1::::<><>::
+mainCharWalk-Sheet-Left.png::CompressedTexture2D::548711745889657641::1706399403::1706399403::1::::<><>::
+mainCharWalk-Sheet-Right.png::CompressedTexture2D::3767700712796134179::1706399403::1706399403::1::::<><>::
+Metal Grating 20Wx10H.png::CompressedTexture2D::3152910789266986757::1706418540::1706418540::1::::<><>::
+Metal Grating Broken L 20Wx10H.png::CompressedTexture2D::343638956409152163::1706424178::1706424187::1::::<><>::
+Metal Grating Broken R 20Wx10H.png::CompressedTexture2D::1826780227549275976::1706424194::1706424195::1::::<><>::
+tundra placeholder.png::CompressedTexture2D::3192235670914270531::1706399403::1706399403::1::::<><>::
+::res://Platforms/::1706438059
+BaseElevator.tscn::PackedScene::7476592779731690425::1706434011::0::1::::<><>::uid://n57hvftjeqi4::::res://images/Elevator Platform.png
+BaseMidPlatform.tscn::PackedScene::359090791749291951::1706425922::0::1::::<><>::uid://daa41k1s1bkpf::::res://images/Concrete Borderless.png
+BaseMidPlatformShaded.tscn::PackedScene::3843397786381987652::1706434443::0::1::::<><>::uid://kug7kpee1twx::::res://images/Concrete Up-Border.png
+BaseWalkway.tscn::PackedScene::1971360721632101034::1706426329::0::1::::<><>::uid://bk6j8k7amrb3b::::res://images/Metal Grating 20Wx10H.png
+LeftWalkway.tscn::PackedScene::38019853073282199::1706434011::0::1::::<><>::uid://e5pxiat0lef8::::res://images/Metal Grating Broken L 20Wx10H.png
+RightWalkway.tscn::PackedScene::6200867334583641291::1706438059::0::1::::<><>::uid://1a52k14touqy::::res://images/Metal Grating Broken R 20Wx10H.png
+WallLeft.tscn::PackedScene::308181012921726615::1706427092::0::1::::<><>::uid://cqq48uupjccff::::res://images/Concrete L-Border.png
+WallRight.tscn::PackedScene::7947568519340684316::1706427092::0::1::::<><>::uid://tficgjvk70ui::::res://images/Concrete R-Border.png
+::res://scenes/::1706438414
+2_nd_level.tscn::PackedScene::3164582266591082873::1706438407::0::1::::<><>::uid://d0sggtpp08rdl::::res://scenes/player.tscn<>uid://bu01g2hmjbjno::::res://Platforms/BaseMidPlatformShaded.tscn<>uid://derynjxtwtjhp::::res://Platforms/BaseElevator.tscn<>uid://sogfy0htcsd::::res://Platforms/LeftWalkway.tscn<>uid://3c7a1wt02d0e::::res://Platforms/BaseWalkway.tscn<>uid://cul0m5f5gm5el::::res://Platforms/RightWalkway.tscn<>uid://c1j0kwwgylx28::::res://images/Elevator Chain 5W x 20H.png<>uid://fd7f43y2rtfb::::res://Platforms/BaseMidPlatform.tscn<>uid://enjxw4xkr2oh::::res://Platforms/WallLeft.tscn<>uid://butu5ymlfq8gy::::res://images/eye-pixilart.png<>uid://d3pyta2w5fdkq::::res://scenes/mainCharIdle.png
+mainCharIdle.png::CompressedTexture2D::9157006519915283704::1706399403::1706399403::1::::<><>::
+player.tscn::PackedScene::8951517980155192429::1706434011::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
+world.tscn::PackedScene::1807029394670312591::1706438414::0::1::::<><>::uid://d0sggtpp08rdl::::res://scenes/player.tscn<>uid://fd7f43y2rtfb::::res://Platforms/BaseMidPlatform.tscn<>uid://3c7a1wt02d0e::::res://Platforms/BaseWalkway.tscn<>uid://bu01g2hmjbjno::::res://Platforms/BaseMidPlatformShaded.tscn<>uid://cul0m5f5gm5el::::res://Platforms/RightWalkway.tscn<>uid://sogfy0htcsd::::res://Platforms/LeftWalkway.tscn<>uid://enjxw4xkr2oh::::res://Platforms/WallLeft.tscn<>uid://d3pyta2w5fdkq::::res://scenes/mainCharIdle.png<>uid://butu5ymlfq8gy::::res://images/eye-pixilart.png
+::res://scripts/::1706413674
+player.gd::GDScript::-1::1706413674::0::1::::<>CharacterBody2D<>::

@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://3c7a1wt02d0e"]
+
+[ext_resource type="Texture2D" uid="uid://bk6j8k7amrb3b" path="res://images/Metal Grating 20Wx10H.png" id="1_3a2ud"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5cpbs"]
+size = Vector2(20, 8)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+scale = Vector2(5, 5)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_3a2ud")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_5cpbs")
