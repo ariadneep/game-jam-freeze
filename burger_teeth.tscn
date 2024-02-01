@@ -1,0 +1,121 @@
+[gd_scene load_steps=15 format=3 uid="uid://cyvh2gjfpo4pn"]
+
+[ext_resource type="Texture2D" uid="uid://wx3x0ifxsdmd" path="res://images/Burger Teeth Final Sprite Sheett.png" id="1_5wasb"]
+[ext_resource type="Script" path="res://burger_teeth.gd" id="1_lxrtq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_swt7o"]
+atlas = ExtResource("1_5wasb")
+region = Rect2(0, 0, 180, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ous74"]
+atlas = ExtResource("1_5wasb")
+region = Rect2(180, 0, 180, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a3gqe"]
+atlas = ExtResource("1_5wasb")
+region = Rect2(360, 0, 180, 80)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1lklf"]
+atlas = ExtResource("1_5wasb")
+region = Rect2(540, 0, 180, 80)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eamsx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_swt7o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ous74")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a3gqe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1lklf")
+}],
+"loop": true,
+"name": &"walk_left",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_66lis"]
+radius = 1039.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2k3if"]
+radius = 802.063
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hhr44"]
+radius = 602.428
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3qxe4"]
+radius = 386.568
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_247aq"]
+radius = 8.0399
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_l2hj6"]
+radius = 42.5906
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0ghbn"]
+radius = 222.603
+
+[node name="Burger Teeth" type="CharacterBody2D"]
+scale = Vector2(5, 5)
+collision_layer = 5
+collision_mask = 5
+script = ExtResource("1_lxrtq")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(7, -36.8)
+sprite_frames = SubResource("SpriteFrames_eamsx")
+animation = &"walk_left"
+
+[node name="detection_1" type="Area2D" parent="."]
+scale = Vector2(1, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_1"]
+shape = SubResource("CircleShape2D_66lis")
+
+[node name="detection_2" type="Area2D" parent="."]
+scale = Vector2(1, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_2"]
+shape = SubResource("CircleShape2D_2k3if")
+
+[node name="detection_3" type="Area2D" parent="."]
+scale = Vector2(1, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_3"]
+shape = SubResource("CircleShape2D_hhr44")
+
+[node name="detection_area" type="Area2D" parent="."]
+collision_layer = 5
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
+position = Vector2(-0.400002, -31.6)
+shape = SubResource("CircleShape2D_3qxe4")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(5, -9.4)
+shape = SubResource("CircleShape2D_247aq")
+
+[node name="death area" type="Area2D" parent="."]
+position = Vector2(113.4, -0.4)
+collision_layer = 4
+collision_mask = 4
+
+[node name="death box" type="CollisionShape2D" parent="death area"]
+position = Vector2(-158.2, -42)
+shape = SubResource("CircleShape2D_l2hj6")
+
+[node name="detection_5" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="detection_5"]
+shape = SubResource("CircleShape2D_0ghbn")
+
+[connection signal="body_entered" from="detection_area" to="." method="_on_detection_area_body_entered"]
+[connection signal="body_exited" from="detection_area" to="." method="_on_detection_area_body_exited"]
+[connection signal="body_entered" from="death area" to="." method="_on_death_area_body_entered"]
+[connection signal="body_shape_entered" from="death area" to="." method="_on_death_area_body_shape_entered"]

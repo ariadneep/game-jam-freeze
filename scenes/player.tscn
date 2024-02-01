@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://d0sggtpp08rdl"]
+[gd_scene load_steps=29 format=3 uid="uid://d0sggtpp08rdl"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_cwsmx"]
 [ext_resource type="Texture2D" uid="uid://cwsyykwuc1vym" path="res://images/mainCharIdle-Sheet.png" id="2_tvn38"]
@@ -163,8 +163,8 @@ animations = [{
 size = Vector2(68, 155.75)
 
 [sub_resource type="Gradient" id="Gradient_4k6ru"]
-offsets = PackedFloat32Array(0.0555556, 0.101307, 0.51634, 0.624183, 0.764706, 0.977124)
-colors = PackedColorArray(1, 1, 1, 1, 0.820513, 0.820513, 0.820513, 1, 0, 0, 0, 1, 0.0935252, 0.0935252, 0.0935252, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+offsets = PackedFloat32Array(0.0555556, 0.31, 0.624183, 0.764706, 0.78, 0.977124)
+colors = PackedColorArray(1, 1, 1, 1, 0.820513, 0.820513, 0.820513, 1, 0.0935252, 0.0935252, 0.0935252, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_su4a5"]
 gradient = SubResource("Gradient_4k6ru")
@@ -172,7 +172,14 @@ fill = 1
 fill_from = Vector2(0.5, 0.5)
 metadata/_snap_enabled = true
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_wttco"]
+radius = 113.358
+
 [node name="Player" type="CharacterBody2D"]
+light_mask = 3
+z_index = 1
+collision_layer = 5
+collision_mask = 7
 script = ExtResource("1_cwsmx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -188,5 +195,14 @@ shape = SubResource("RectangleShape2D_5bgkt")
 [node name="PointLight2D" type="PointLight2D" parent="."]
 position = Vector2(3.8147e-06, -68)
 scale = Vector2(6.5, 6.01562)
-color = Color(0.862745, 0.815686, 0.545098, 1)
+color = Color(0.662745, 0.882353, 0.588235, 1)
+energy = 1.11
+range_layer_min = -512
+range_layer_max = 3
 texture = SubResource("GradientTexture2D_su4a5")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-4, -66)
+shape = SubResource("CircleShape2D_wttco")

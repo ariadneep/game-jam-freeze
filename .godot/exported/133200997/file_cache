@@ -1,0 +1,16 @@
+res://Platforms/BaseElevator.tscn::00f146bd871f91b1f3f0e91cb69e9922::1706470404::res://.godot/exported/133200997/export-e39c7b58c1e0ed6cbb3c0c5b7f0eb72f-BaseElevator.scn
+res://Platforms/BaseMidPlatform.tscn::47977eaf558c18a11295f5c441d8b787::1706465873::res://.godot/exported/133200997/export-0ecd1f0ff07bdbe1c66b84367ebc756c-BaseMidPlatform.scn
+res://Platforms/BaseMidPlatformShaded.tscn::cc1c49c0f9465dc5e15cd51de6ce5bad::1706465873::res://.godot/exported/133200997/export-9a27c108e0acbff3bed0d7685248035b-BaseMidPlatformShaded.scn
+res://Platforms/BaseWalkway.tscn::65e4633b96d775c3dbdc5fb3f8c4a0a8::1706465873::res://.godot/exported/133200997/export-d88a66abfcab78901f3ab56ceab19df9-BaseWalkway.scn
+res://Platforms/LeftWalkway.tscn::de915954da2dfe73cb79c2d91a2e0fcf::1706465873::res://.godot/exported/133200997/export-94112e46d467b88092f294c846d9176a-LeftWalkway.scn
+res://Platforms/RightWalkway.tscn::475c1b0dcab834827986af32759500bd::1706471253::res://.godot/exported/133200997/export-49c997a2db17b597f31b341fbdaf086d-RightWalkway.scn
+res://Platforms/WallLeft.tscn::e6a7ec836b22ffec14f58ddccc01b8cc::1706465873::res://.godot/exported/133200997/export-198fc1455526c07d710ca447c2ea00b5-WallLeft.scn
+res://Platforms/WallRight.tscn::e639b056fcd6a753072346c933564d9d::1706465873::res://.godot/exported/133200997/export-9d87a387cc23ba7879b73ec193fb11d1-WallRight.scn
+res://scenes/2_nd_level.tscn::2b4c64042d541895c942a0736a0a377e::1706485967::res://.godot/exported/133200997/export-fd5d5a82644372d2735f231fd1c9dbaf-2_nd_level.scn
+res://scenes/death_screen.tscn::94cc50851a488e55a069b051479ae5fb::1706479702::res://.godot/exported/133200997/export-da697a7ce36191eb82c84ca9320d9702-death_screen.scn
+res://scenes/main_menu.tscn::5c36de5c617e20a04e993e2138a3103f::1706479702::res://.godot/exported/133200997/export-ea5c6ad4629af728dc514cefde332394-main_menu.scn
+res://scenes/player.tscn::1f0e68949a33afe3b48265f482444695::1706485967::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
+res://scenes/win_screen.tscn::3685aad0cfe962c10b14173323c5b273::1706479702::res://.godot/exported/133200997/export-4446fc4d426ca974deeefccb08735c1c-win_screen.scn
+res://scenes/world.tscn::fd25d700ba6c122eec998a81f3b464db::1706485966::res://.godot/exported/133200997/export-6b9c1b1fd6ae6f795188dfdc89e222b0-world.scn
+res://player.tscn::9eb1d1b2d3c83b3e6df193096d0cb4a9::1706396932::res://.godot/exported/133200997/export-36a25e342948d0ceacc500772b5412b3-player.scn
+res://burger_teeth.tscn::850325ddb55da2916711b703219f4f39::1706488898::res://.godot/exported/133200997/export-f40708abcd28ee54181d2c183ac306ef-burger_teeth.scn
