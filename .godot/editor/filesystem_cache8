@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706512880
-burger_teeth.gd::GDScript::-1::1706512367::0::1::::<>CharacterBody2D<>::
-burger_teeth.tscn::PackedScene::6501199112210179135::1706512528::0::1::::<><>::uid://wx3x0ifxsdmd::::res://images/Burger Teeth Final Sprite Sheett.png<>res://burger_teeth.gd
+::res://::1707501406
+burger_teeth.gd::GDScript::-1::1706516598::0::1::::<>CharacterBody2D<>::
+burger_teeth.tscn::PackedScene::6501199112210179135::1706516598::0::1::::<><>::uid://wx3x0ifxsdmd::::res://images/Burger Teeth Final Sprite Sheett.png<>res://burger_teeth.gd
 export_presets.cfg::TextFile::-1::1706485499::0::1::::<><>::
 gitattributes.txt::TextFile::-1::1706396927::0::1::::<><>::
 gitignore.txt::TextFile::-1::1706396929::0::1::::<><>::
@@ -42,8 +42,8 @@ pipe border-sprite.png::CompressedTexture2D::1823339630047707655::1706497888::17
 titleScreen1.png::CompressedTexture2D::9119039383452402548::1706479630::1706479630::1::::<><>::
 tundra placeholder.png::CompressedTexture2D::3192235670914270531::1706396807::1706396995::1::::<><>::
 win screen.png::CompressedTexture2D::8527327368839689808::1706479630::1706479630::1::::<><>::
-::res://Platforms/::1706471253
-BaseElevator.tscn::PackedScene::7476592779731690425::1706470404::0::1::::<><>::res://scripts/BaseElevator.gd<>uid://n57hvftjeqi4::::res://images/Elevator Platform.png
+::res://Platforms/::1706514805
+BaseElevator.tscn::PackedScene::7476592779731690425::1706514805::0::1::::<><>::res://scripts/BaseElevator.gd<>uid://n57hvftjeqi4::::res://images/Elevator Platform.png
 BaseMidPlatform.tscn::PackedScene::359090791749291951::1706465873::0::1::::<><>::uid://daa41k1s1bkpf::::res://images/Concrete Borderless.png
 BaseMidPlatformShaded.tscn::PackedScene::3843397786381987652::1706465873::0::1::::<><>::uid://kug7kpee1twx::::res://images/Concrete Up-Border.png
 BaseWalkway.tscn::PackedScene::1971360721632101034::1706465873::0::1::::<><>::uid://bk6j8k7amrb3b::::res://images/Metal Grating 20Wx10H.png
@@ -51,18 +51,18 @@ LeftWalkway.tscn::PackedScene::38019853073282199::1706465873::0::1::::<><>::uid:
 RightWalkway.tscn::PackedScene::6200867334583641291::1706471253::0::1::::<><>::uid://1a52k14touqy::::res://images/Metal Grating Broken R 20Wx10H.png
 WallLeft.tscn::PackedScene::308181012921726615::1706465873::0::1::::<><>::uid://cqq48uupjccff::::res://images/Concrete L-Border.png
 WallRight.tscn::PackedScene::7947568519340684316::1706465873::0::1::::<><>::uid://tficgjvk70ui::::res://images/Concrete R-Border.png
-::res://scenes/::1706512528
-2_nd_level.tscn::PackedScene::3164582266591082873::1706512528::0::1::::<><>::uid://d0sggtpp08rdl::::res://scenes/player.tscn<>uid://bu01g2hmjbjno::::res://Platforms/BaseMidPlatformShaded.tscn<>uid://derynjxtwtjhp::::res://Platforms/BaseElevator.tscn<>uid://sogfy0htcsd::::res://Platforms/LeftWalkway.tscn<>uid://3c7a1wt02d0e::::res://Platforms/BaseWalkway.tscn<>uid://cul0m5f5gm5el::::res://Platforms/RightWalkway.tscn<>uid://c1j0kwwgylx28::::res://images/Elevator Chain 5W x 20H.png<>uid://fd7f43y2rtfb::::res://Platforms/BaseMidPlatform.tscn<>uid://enjxw4xkr2oh::::res://Platforms/WallLeft.tscn<>uid://butu5ymlfq8gy::::res://images/eye-pixilart.png<>uid://d3pyta2w5fdkq::::res://scenes/mainCharIdle.png<>uid://b4hfdawawmdsv::::res://images/Background-sheet.png<>uid://b5udofurq0lov::::res://images/Chainlink Background 64x64.png<>uid://08iewy8fc55t::::res://images/pipe border-sprite.png
+::res://scenes/::1706516337
+2_nd_level.tscn::PackedScene::3164582266591082873::1706515818::0::1::::<><>::uid://d0sggtpp08rdl::::res://scenes/player.tscn<>uid://bu01g2hmjbjno::::res://Platforms/BaseMidPlatformShaded.tscn<>uid://derynjxtwtjhp::::res://Platforms/BaseElevator.tscn<>uid://sogfy0htcsd::::res://Platforms/LeftWalkway.tscn<>uid://3c7a1wt02d0e::::res://Platforms/BaseWalkway.tscn<>uid://cul0m5f5gm5el::::res://Platforms/RightWalkway.tscn<>uid://c1j0kwwgylx28::::res://images/Elevator Chain 5W x 20H.png<>uid://fd7f43y2rtfb::::res://Platforms/BaseMidPlatform.tscn<>uid://enjxw4xkr2oh::::res://Platforms/WallLeft.tscn<>uid://butu5ymlfq8gy::::res://images/eye-pixilart.png<>uid://d3pyta2w5fdkq::::res://scenes/mainCharIdle.png<>uid://b4hfdawawmdsv::::res://images/Background-sheet.png<>uid://b5udofurq0lov::::res://images/Chainlink Background 64x64.png<>uid://08iewy8fc55t::::res://images/pipe border-sprite.png
 death_screen.tscn::PackedScene::1803041241663583072::1706479702::0::1::::<><>::res://scripts/death_screen.gd<>uid://bc4e7sdqjsrm8::::res://images/death screen.png
 mainCharIdle.png::CompressedTexture2D::9157006519915283704::1706396869::1706396995::1::::<><>::
 main_menu.tscn::PackedScene::9222503780853900559::1706479702::0::1::::<><>::res://scripts/main_menu.gd<>uid://d26lim1bgdl6s::::res://images/titleScreen1.png
-player.tscn::PackedScene::8951517980155192429::1706512528::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
+player.tscn::PackedScene::8951517980155192429::1706516337::0::1::::<><>::res://scripts/player.gd<>uid://cwsyykwuc1vym::::res://images/mainCharIdle-Sheet.png<>uid://h22g43xohoo4::::res://images/mainCharWalk-Sheet-Left.png<>uid://btxdqlguqmwg6::::res://images/mainCharWalk-Sheet-Right.png
 win_screen.tscn::PackedScene::8290558800903046880::1706479702::0::1::::<><>::res://scripts/win_screen.gd<>uid://dtqx3okqf66h5::::res://images/win screen.png
-world.tscn::PackedScene::1807029394670312591::1706512528::0::1::::<><>::res://scripts/globals.gd<>uid://d0sggtpp08rdl::::res://scenes/player.tscn<>uid://fd7f43y2rtfb::::res://Platforms/BaseMidPlatform.tscn<>uid://3c7a1wt02d0e::::res://Platforms/BaseWalkway.tscn<>uid://bu01g2hmjbjno::::res://Platforms/BaseMidPlatformShaded.tscn<>uid://cul0m5f5gm5el::::res://Platforms/RightWalkway.tscn<>uid://sogfy0htcsd::::res://Platforms/LeftWalkway.tscn<>uid://enjxw4xkr2oh::::res://Platforms/WallLeft.tscn<>uid://d3pyta2w5fdkq::::res://scenes/mainCharIdle.png<>uid://butu5ymlfq8gy::::res://images/eye-pixilart.png<>uid://08iewy8fc55t::::res://images/pipe border-sprite.png<>uid://b4hfdawawmdsv::::res://images/Background-sheet.png<>uid://b5udofurq0lov::::res://images/Chainlink Background 64x64.png<>uid://cyvh2gjfpo4pn::::res://burger_teeth.tscn
-::res://scripts/::1706512367
+world.tscn::PackedScene::1807029394670312591::1706516337::0::1::::<><>::res://scripts/globals.gd<>uid://d0sggtpp08rdl::::res://scenes/player.tscn<>uid://fd7f43y2rtfb::::res://Platforms/BaseMidPlatform.tscn<>uid://3c7a1wt02d0e::::res://Platforms/BaseWalkway.tscn<>uid://bu01g2hmjbjno::::res://Platforms/BaseMidPlatformShaded.tscn<>uid://cul0m5f5gm5el::::res://Platforms/RightWalkway.tscn<>uid://sogfy0htcsd::::res://Platforms/LeftWalkway.tscn<>uid://enjxw4xkr2oh::::res://Platforms/WallLeft.tscn<>uid://d3pyta2w5fdkq::::res://scenes/mainCharIdle.png<>uid://butu5ymlfq8gy::::res://images/eye-pixilart.png<>uid://08iewy8fc55t::::res://images/pipe border-sprite.png<>uid://b4hfdawawmdsv::::res://images/Background-sheet.png<>uid://b5udofurq0lov::::res://images/Chainlink Background 64x64.png<>uid://cyvh2gjfpo4pn::::res://burger_teeth.tscn<>uid://nj1x3emvsjlc::::res://images/InstructionsAD.png<>uid://b76myf1u7ji8d::::res://images/InstructionsHide (1).png<>uid://rsqqyh5pkit0::::res://images/InstructionsJump.png
+::res://scripts/::1706516272
 BaseElevator.gd::GDScript::-1::1706469296::0::1::::<>Path2D<>::
 death_screen.gd::GDScript::-1::1706479630::0::1::::<>Control<>::
 globals.gd::GDScript::-1::1706503949::0::1::::<>Node2D<>::
 main_menu.gd::GDScript::-1::1706479630::0::1::::<>Control<>::
-player.gd::GDScript::-1::1706512367::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1706516272::0::1::::<>CharacterBody2D<>::
 win_screen.gd::GDScript::-1::1706479630::0::1::::<>Control<>::
